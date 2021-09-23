@@ -1282,13 +1282,17 @@ input.input100 {
   .window{
     width: 190px;
   height: 190px;
+  margin-top: -30%;
   }
   .message h1{
     font-size: 70px;
-    margin-top: -10%;
+    margin-top: -35%;
+  }
+  .message h2 {
+    margin-top: 155%;
   }
   .timer{
-    margin-top: 110%;
+    margin-top: 85%;
   }
   .santa .body {
     width: 160px;
@@ -1441,4 +1445,18 @@ input.input100 {
 }
 .prereg{
   font-family: 'Coming Soon';
+}
+
+
+@media (max-width: 768px) {
+  .regbtn{
+    margin-left: 20%;
+    margin-top: 30%;
+  }
+  .register{
+    margin-left: 22%;
+  }
+  .logo{
+    margin-left: 10%;
+  }
 }
