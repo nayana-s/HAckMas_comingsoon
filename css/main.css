@@ -15,6 +15,7 @@ Primary use:
   src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf'); 
 }
 
+
 @font-face {
   font-family: Barlow-Regular;
   src: url('../fonts/Barlow/Barlow-Regular.ttf'); 
@@ -647,8 +648,8 @@ body {
         border-radius: 50%;
         z-index: 5;
         position: absolute;
-        right: -20px;
-        top: 40px;
+        right: -40px;
+        top: 50px;
         box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.1); }
       .santa .head .face .eyes {
         position: absolute;
@@ -787,12 +788,13 @@ body {
     margin-bottom: 0;
     white-space: nowrap; }
   .message h2 {
-    margin-top: 5%;
-    font-family:'Mountains of Christmas' ;
-    font-size: 40px;
+    margin-top: 45%;
+    font-family: 'Segoe Script', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
     text-align: center;
     white-space: nowrap;
-  color: #ff9d9e; }
+  color: #8098b6; }
 
 @-webkit-keyframes bodyLaugh {
   0% {
@@ -1276,7 +1278,7 @@ body {
     width: 20px; } }
 
 .timer{
-    margin-top: 34%;
+    margin-top: 33%;
     }
 
 @media (max-width: 768px) {
